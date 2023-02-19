@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Case Problem 1
+   
+   Layout styles for Slate and Pencil Tutoring
+   Author: Lee Alexander Canam
+   Date:   February 19th, 2023
+   
+   Filename: sp_layout.css
+
+*/
+
+/* Window and Body Styles */
+
+html {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+ }
+
+body {
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   margin: 0 auto;
+   min-height: 100%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+ }
+ 
+img {
+  display: block; 
+}
+  aside img {
+   float: left;
+   width: 20%;
+ 
+}
+
+#logo {
+   grid-column: 1 / span 3;
+   width: 100%;
+ }
+
+ 
+
+/* CSS Grid Styles */
+
+ aside:nth-of-type(odd) {
+   justify-self: end;
+ }
+
+
+
+/* Horizontal Navigation List Styles */
+.vertical {
+   display: flex;
+   flex-direction: row;
+   
+}
+
+
+.horizontal {
+   grid-column: 1 / span 4;
+
+   
+   
+ }
+
+
+
+.horizontal ul li  {
+   display: block;
+   width: 12.5%;
+   float: left;
+ }  
+
+ 
+
+ 
+footer {
+   grid-column: 1 / span 4;
+ }
+ 
+aside {
+   grid-column: 1 / span 4;
+   width: 75%;
+   padding-bottom: 30px;
+ }
+
+aside:nth-of-type(odd) {
+   justify-self: right;
+
+ }
+
+/* Section Styles */
+
+section img {
+   width: 75%;
+   display: block;
+   margin: 0 auto;
+ }
+
+
+
+/* Customer Comment Styles */
+
+section {
+   margin: 40px;
+
+
+ }
+ 
