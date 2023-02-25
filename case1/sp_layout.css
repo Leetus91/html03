@@ -30,6 +30,36 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+
+aside img {
+  float: left;
+  width: 20%;
+
+}
+
+
+
+
+
+/* CSS Grid Styles */
+
+aside:nth-of-type(odd) {
+  justify-self: end;
+}
+
+
+
+
+
+
+
+
+
+aside:nth-of-type(odd) {
+  justify-self: right;
+
+}
+
 img {
   display: block; 
 }
@@ -72,3 +102,19 @@ aside {
   width: 12.5%;
   float: left;
 }  
+
+/* Section Styles */
+
+section img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Customer Comment Styles */
+
+section {
+  margin: 40px;
+
+
+}
