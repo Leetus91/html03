@@ -48,3 +48,27 @@ aside {
   width: 75%;
   padding-bottom: 30px;
 }
+
+
+/* Horizontal Navigation List Styles */
+.vertical {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.horizontal {
+  grid-column: 1 / span 4;
+
+  
+  
+}
+
+
+
+.horizontal ul li  {
+  display: block;
+  width: 12.5%;
+  float: left;
+}  
