@@ -11,3 +11,19 @@
    Filename: sp_layout.css
 
 */
+
+/* Window and Body Styles */
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 95%;
+  min-width: 640px;
+  max-width: 960px;
+  margin: 0 auto;
+  min-height: 100%;
+}
