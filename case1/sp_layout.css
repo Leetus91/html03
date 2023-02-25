@@ -33,3 +33,18 @@ body {
 img {
   display: block; 
 }
+
+#logo {
+  grid-column: 1 / span 3;
+  width: 100%;
+}
+
+footer {
+  grid-column: 1 / span 4;
+}
+
+aside {
+  grid-column: 1 / span 4;
+  width: 75%;
+  padding-bottom: 30px;
+}
